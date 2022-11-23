@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from "react";
-const host = `http://localhost:`;
+const host = `http://localhost:5000`;
 
 const Contact = (props) => {
   const [data,setData]=useState({name:"",email:"",phone:"",message:""})
